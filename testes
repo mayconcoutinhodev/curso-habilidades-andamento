@@ -1,0 +1,336 @@
+Direto ao ponto.
+
+## 1. Por que **testes de software são essenciais**
+
+Se você acha que testes são “opcionais”, está errado.
+
+Testes existem para **reduzir risco**, não para “garantir qualidade” de forma abstrata.
+
+Eles evitam:
+
+- Bugs em produção (custo explode)
+    
+- Quebra de contratos (SLAs, clientes, regulatório)
+    
+- Regressões invisíveis
+    
+- Perda de dinheiro, reputação e tempo
+    
+
+**Regra dura:**
+
+> Quanto mais tarde o bug é descoberto, **mais caro** ele fica (10x–100x).
+
+Produção é o pior lugar para testar.
+
+---
+
+## 2. Por que testes são **caros**
+
+Testes não custam porque “dão trabalho”. Custam porque:
+
+1. **Tempo de engenheiro bom** (o mesmo que cria produto)
+    
+2. **Manutenção contínua** (teste quebra quando código muda)
+    
+3. **Infraestrutura**
+    
+    - CI/CD
+        
+    - Ambientes isolados
+        
+    - Dados falsos (mocks, fixtures)
+        
+4. **Custo cognitivo**  
+    Teste mal feito vira dívida técnica.
+    
+
+**Conclusão impopular:**  
+Testes mal planejados **dão prejuízo**.  
+Testes bem planejados **economizam milhões**.
+
+---
+
+## 3. Onde testes são indispensáveis (não negociável)
+
+Se falhar, alguém perde dinheiro, liberdade ou vida:
+
+- Bancos / fintechs
+    
+- Saúde
+    
+- Aviação
+    
+- Telecom
+    
+- E-commerce grande
+    
+- Sistemas fiscais / governo
+    
+- APIs usadas por terceiros
+    
+
+Se o sistema **escala**, **cobra**, ou **impacta terceiros**, testar não é escolha.
+
+---
+
+## 4. Onde testes são reduzidos (com estratégia)
+
+- MVPs
+    
+- Provas de conceito
+    
+- Startups em validação inicial
+    
+
+Mas mesmo aqui:
+
+- **Regra crítica sempre testada**
+    
+- **Core do negócio testado**
+    
+- Interface pode quebrar, regra financeira não.
+    
+
+---
+
+## 5. Tipos de testes (o que realmente importa)
+
+### 1️⃣ Testes Unitários (base)
+
+Testam funções isoladas.
+
+- Rápidos
+    
+- Baratos
+    
+- Alto retorno
+    
+
+**Usados em:** regras de negócio, validações, cálculos.
+
+Ferramentas:
+
+- Jest (JS/TS)
+    
+- PyTest (Python)
+    
+- JUnit (Java)
+    
+
+---
+
+### 2️⃣ Testes de Integração (onde bugs reais surgem)
+
+Testam interação entre partes:
+
+- API ↔ Banco
+    
+- Serviço ↔ Serviço
+    
+- Backend ↔ Fila
+    
+
+Mais lentos, mais caros, mais valiosos.
+
+**Aqui mora 80% dos bugs sérios.**
+
+---
+
+### 3️⃣ Testes End-to-End (E2E)
+
+Simulam usuário real.
+
+- Lentíssimos
+    
+- Frágeis
+    
+- Caríssimos
+    
+
+Use **poucos**, apenas em fluxos críticos.
+
+Ferramentas:
+
+- Cypress
+    
+- Playwright
+    
+- Selenium
+    
+
+---
+
+### 4️⃣ Testes de Contrato
+
+Garantem que APIs não quebrem quem consome.
+
+Muito usados em:
+
+- Microserviços
+    
+- APIs públicas
+    
+
+Ferramentas:
+
+- Pact
+    
+
+---
+
+### 5️⃣ Testes de Performance
+
+Verificam:
+
+- Carga
+    
+- Latência
+    
+- Pico de usuários
+    
+
+Usados em:
+
+- Black Friday
+    
+- Bancos
+    
+- SaaS grande
+    
+
+Ferramentas:
+
+- k6
+    
+- JMeter
+    
+- Gatling
+    
+
+---
+
+### 6️⃣ Testes de Segurança
+
+Caçam:
+
+- SQL Injection
+    
+- XSS
+    
+- Auth quebrada
+    
+
+Usados em:
+
+- Fintech
+    
+- Gov
+    
+- SaaS B2B
+    
+
+Ferramentas:
+
+- OWASP ZAP
+    
+- Snyk
+    
+
+---
+
+## 6. Pirâmide de testes (regra que funciona)
+
+Se você ignora isso, paga caro depois.
+
+`E2E           (poucos) Integração    (médio) Unitários     (muitos)`
+
+Empresas que fazem o inverso sofrem.
+
+---
+
+## 7. Como estudar testes **do jeito certo**
+
+Não estude teoria solta. Estude **junto com código real**.
+
+### Caminho prático:
+
+1. Pegue um projeto seu
+    
+2. Identifique a **regra mais crítica**
+    
+3. Escreva teste unitário primeiro
+    
+4. Quebre o código de propósito
+    
+5. Veja o teste falhar
+    
+6. Corrija
+    
+
+Sem isso, você não aprende.
+
+---
+
+## 8. O erro comum de devs (provavelmente o seu)
+
+> “Depois eu testo”
+
+Não vai.
+
+Teste **junto** com a implementação ou:
+
+- Não será feito
+    
+- Será inútil
+    
+- Será removido
+    
+
+---
+
+## 9. Quando NÃO testar (verdade inconveniente)
+
+Não teste:
+
+- UI estética
+    
+- Função trivial sem lógica
+    
+- Código que vai morrer em semanas
+    
+
+Teste **decisão**, **regra**, **impacto financeiro**.
+
+---
+
+## 10. Mentalidade correta
+
+Teste não é:
+
+- Garantia de bug zero
+    
+- Sinal de maturidade moral
+    
+
+Teste é:
+
+> **Seguro contra falhas caras**
+
+Se o bug custa pouco, o teste não vale.
+
+---
+
+## Se quiser ir além
+
+Posso:
+
+- Montar um **plano de estudo focado em Jest + integração**
+    
+- Analisar um **código seu e dizer exatamente o que testar**
+    
+- Te mostrar **onde empresas grandes jogam dinheiro fora com testes inúteis**
+    
+
+Escolhe o próximo passo.
+
