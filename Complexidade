@@ -1,0 +1,145 @@
+
+
+
+Praticando problemas que **não têm roteiro**.
+
+Separando por habilidade:
+
+---
+
+## 1. Arquitetar sistema
+
+Pare de começar pelo código. Comece pelo desenho.
+
+Exercício:
+
+- Modele um sistema tipo:
+    
+    - Clone do iFood
+        
+    - Sistema bancário simples
+        
+    - Chat em tempo real
+        
+- Defina:
+    
+    - Entidades
+        
+    - Fluxos
+        
+    - Escalabilidade
+        
+    - Pontos de falha
+        
+    - Consistência vs performance
+        
+
+Depois compare com arquiteturas reais (ex: **Uber** engineering blog).
+
+---
+
+## 2. Resolver problema ambíguo
+
+Pegue problemas mal definidos.
+
+Exemplo:  
+“Sistema está lento.”
+
+Você precisa descobrir:
+
+- Onde?
+    
+- Quando?
+    
+- Com qual carga?
+    
+- Métrica objetiva?
+    
+
+Treine formulando hipóteses antes de codar.
+
+---
+
+## 3. Trabalhar com legado complexo
+
+Faça isso de propósito:
+
+- Pegue um projeto open source grande.
+    
+- Não leia documentação.
+    
+- Entenda fluxo sozinho.
+    
+- Corrija um bug real.
+    
+
+Sugestão:
+
+- Kernel Linux (para leitura)
+    
+- Projetos grandes no GitHub
+    
+- Código de **Redis Ltd.** (Redis é pequeno e profundo)
+    
+
+---
+
+## 4. Pensar em escala
+
+Construa algo que quebre.
+
+Exemplo:
+
+- API simples
+    
+- Coloque load test (10k req/s)
+    
+- Observe gargalo
+    
+- Otimize
+    
+
+Você aprende mais quando o sistema falha.
+
+---
+
+## 5. Estude fundamentos pesados
+
+Não é framework. É:
+
+- Estrutura de dados avançada
+    
+- Sistemas operacionais
+    
+- Concorrência
+    
+- Redes
+    
+- Bancos de dados internos
+    
+
+Livro técnico, não tutorial.
+
+---
+
+## 6. Regra prática
+
+Se você consegue resolver copiando StackOverflow, não está treinando profundidade.
+
+Treine em problemas onde:
+
+- Não há resposta pronta
+    
+- Você precisa pensar
+    
+- Você falha primeiro
+    
+
+---
+
+Resumo direto:
+
+Complexidade se aprende enfrentando complexidade.  
+Projetos pequenos e tutoriais não criam engenheiros fortes.
+
+Projetos difíceis, mal definidos e que quebram criam.
