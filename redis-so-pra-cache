@@ -1,0 +1,41 @@
+A maioria dos devs usa Redis só pra cache. E está perdendo 80% do que essa ferramenta oferece.  
+  
+Redis é uma das ferramentas mais subutilizadas do stack moderno.  
+  
+Cache é o caso de uso mais óbvio, mas é só a porta de entrada.  
+  
+Deixa eu te mostrar 4 usos que aplico em quase todo sistema Node.js que construo:  
+  
+1. Filas com BullMQ  
+  
+Esquece configurar RabbitMQ ou Kafka pra processar jobs assíncronos. BullMQ roda em cima de Redis e resolve a maioria dos casos: envio de email, processamento de imagem, geração de relatório, webhooks.  
+  
+Suporta retry automático, delay, prioridade, rate limit por fila e job scheduling. Tudo com poucas linhas de código. Pra 95% dos sistemas, é suficiente.  
+  
+2. Rate limiting distribuído  
+  
+Rate limit em memória só funciona se você tem uma instância do servidor. Quando escala horizontalmente, cada instância tem seu próprio contador e o limite vira ficção.  
+  
+Com Redis, você usa INCR + EXPIRE pra criar um contador atômico compartilhado entre todas as instâncias. Bibliotecas como rate-limiter-flexible fazem isso de forma elegante. Sliding window, fixed window, token bucket - tudo suportado.  
+  
+3. Locks distribuídos  
+  
+Cenário clássico: dois workers consomem a mesma fila e tentam processar o mesmo recurso ao mesmo tempo. Race condition garantida.  
+  
+Solução: distributed lock com Redis usando o algoritmo Redlock. Antes de processar, o worker tenta adquirir um lock com TTL. Se conseguiu, processa. Se não, outro worker já está cuidando.  
+  
+Em Node, a biblioteca redlock implementa isso de forma robusta. Funciona até em cluster Redis.  
+  
+4. Pub/Sub para comunicação entre serviços  
+  
+Quando você precisa notificar várias instâncias de um evento (cache invalidation, websocket broadcast, configuração atualizada), o Pub/Sub do Redis resolve sem precisar de um message broker dedicado.  
+  
+Uma instância publica num canal, todas as outras que assinaram recebem em tempo real. Latência abaixo de 1ms na maioria dos casos.  
+  
+O ponto que eu quero deixar claro:  
+  
+Antes de adicionar uma nova ferramenta no seu stack, pergunte se o Redis que já está rodando ali não resolve o problema.  
+  
+Menos peças móveis, menos coisa pra dar errado, menos custo de infraestrutura.  
+  
+Como você usa Redis no seu sistema hoje? Só cache ou já explora outros usos?
