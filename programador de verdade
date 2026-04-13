@@ -1,0 +1,154 @@
+
+
+
+- **Disponibilidade**: sistema no ar. Quedas custam dinheiro.
+    
+- **Confiabilidade**: não corromper dados, não gerar erro silencioso.
+    
+- **Performance**: responder rápido mesmo com carga.
+    
+- **Escalabilidade**: aguentar picos sem colapsar.
+    
+- **Segurança**: evitar vazamento, fraude, invasão.
+    
+- **Observabilidade**: saber o que está quebrando antes do cliente.
+    
+- **Correção contínua**: corrigir bug em produção sem parar tudo.
+    
+- **Integração**: lidar com sistemas velhos, APIs ruins, dependências.
+
+
+
+
+
+**Por que existe software**
+
+- Automatiza trabalho.
+    
+- Reduz custo.
+    
+- Escala sem aumentar pessoas.
+    
+- Controla informação.
+
+
+**Por que gera dinheiro**
+
+- Custo marginal quase zero.
+    
+- Vende a mesma coisa infinitas vezes.
+    
+- Lock-in (trocar dói).
+    
+- Dados viram vantagem.
+    
+
+**Quem ganha muito dinheiro**
+
+- Quem resolve dor cara e recorrente.
+    
+- Quem controla distribuição (plataforma).
+    
+- Quem vende para empresas, não para usuário final.
+    
+- Quem tem escala global.
+    
+
+**Maiores problemas**
+
+- Aquisição de clientes.
+    
+- Retenção.
+    
+- Concorrência copiando rápido.
+    
+- Dependência de terceiros (cloud, app store, leis).
+    
+
+**O que é desafiador**
+
+- Encontrar dor real.
+    
+- Vender.
+    
+- Manter simples crescendo.
+    
+- Tomar decisões certas com pouca informação.
+    
+
+**Como entender de verdade**
+
+1. Estude modelos: SaaS, marketplace, plataforma, enterprise.
+    
+2. Analise empresas reais (como ganham, para quem vendem, custos).
+    
+3. Leia relatórios simples (pitch deck, site, pricing).
+    
+4. Construa algo pequeno e tente vender.
+    
+5. Observe onde o dinheiro entra e onde vaza.
+
+
+- **Resolve problemas caros** (tempo, dinheiro, escala).
+    
+- **Entende o contexto**: negócio, produto, usuário.
+    
+- **Entrega sozinho** ou destrava times.
+    
+- **Decide bem** (trade-offs, arquitetura, prioridade).
+    
+- **Aprende rápido** e se adapta.
+    
+- **Reduz risco** (menos bugs, menos retrabalho).
+
+
+
+
+### Programador de alto nível (alto valor)
+
+Perfil raro.
+
+- Resolve **problemas ambíguos** e caros.
+    
+- Entende **por que** antes do **como**.
+    
+- Conecta código a dinheiro, tempo, risco e usuários.
+    
+- Toma decisões técnicas com impacto estratégico.
+    
+- Prevê falhas, gargalos e crescimento.
+    
+- Simplifica sistemas complexos.
+    
+- Aumenta velocidade do time inteiro.
+    
+- Confiável sob pressão.
+    
+- Atua mesmo sem instruções claras.
+    
+
+Resultado:  
+Gera **vantagem competitiva**. Difícil de substituir. Alto salário e alta demanda.
+
+
+
+### 7. Aprenda fundamentos de verdade
+
+- Sistemas distribuídos.
+    
+- Banco de dados.
+    
+- Redes.
+    
+- Concorrência.  
+    Stack muda. Fundamento fica.
+
+
+
+### 8. Aprenda a comunicar
+
+- Explicar decisão técnica para não técnico.
+    
+- Discordar sem ego.
+    
+- Ser claro e direto.
