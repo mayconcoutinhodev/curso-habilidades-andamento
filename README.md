@@ -238,5 +238,20 @@ Obrigatórios
 
 • Documentar APIs quando aplicável.
 
+### --- 
 
+
+- DDD bem aplicado
+    
+- C4 Model (arquitetura moderna)
+    
+- Modelagem de banco avançada
+    
+- Concorrência e performance
+    
+- Sistemas distribuídos
+    
+- Mensageria
+    
+- Design de sistemas em larga escala
 
