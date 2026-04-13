@@ -157,6 +157,86 @@ https://dribbble.com/tags/form-ui - Quero pegar referencias de ferramentas
 
 https://github.com/MayconCoutinho?tab=repositories  - Tenho que ver meu perfil e ver oque tem de util 
 
+# ---
+
+
+
+**Mensageria e Streaming**: Kafka, RabbitMQ ou outros sistemas de fila.
+
+**MVC, Clean Architecture, DDD** e **microsserviços**.
+
+
+
+
+Obrigatórios
+
+• Domínio de ReactJS (hooks, componentização, estado global, SPA).
+
+• Domínio de Node.js Express , Fastify, APIs REST, middlewares).
+
+• Experiência sólida com MySQL (consultas complexas, joins, índices).
+
+• Conhecimento prático de Clean Code e princípios SOLID.
+
+• Vivência real com DDD aplicado (entidades, agregados, repositórios, bounded contexts).
+
+• Experiência com arquiteturas modernas (camadas bem definidas, modularização).
+
+• Testes unitários e de integração (Jest, Vitest, Supertest ou similares).
+
+• Integração entre frontend e backend, incluindo autenticação JWT.
+
+• Capacidade de refatorar código legado aplicando boas práticas.
+
+• Uso de Git Flow (main, release, hotfix) no dia a dia.
+
+• Experiência com Arquitetura Hexagonal ou CQRS.
+
+• Experiência com WebSockets (comunicação em tempo real).
+
+• Cache com Redis e filas (RabbitMQ/Kafka).
+
+• Documentação com Swagger ou similar.
+
+• Monitoramento e logs (Grafana, ELK, PM2, Datadog).
+
+• Conhecimento fiscal (NFe, CFOP, CST, ICMS) — diferencial importante.
+
+• Experiência com sistemas ERP ou sistemas automotivos.
+
+  
+
+🧬 REQUISITOS COMPORTAMENTAIS
+
+• Autonomia para desenvolver e entregar features completas.
+
+• Capacidade de colaborar tecnicamente com o time.
+
+• Boa comunicação e clareza para discutir domínio e regras de negócio.
+
+• Capacidade de compreender e modelar regras complexas (ex.: fiscal/automotivo).
+
+• Compromisso com qualidade e padrões.
+
+  
+
+📌 RESPONSABILIDADES
+
+• Desenvolver e manter funcionalidades em ReactJS e Node.js.
+
+• Criar e evoluir APIs REST escaláveis.
+
+• Modelar e otimizar banco MySQL.
+
+• Aplicar DDD, SOLID e Clean Code nos módulos do ERP.
+
+• Implementar testes unitários e de integração.
+
+• Refatorar códigos legados quando necessário.
+
+• Criar integrações com serviços internos e externos.
+
+• Documentar APIs quando aplicável.
 
 
 
