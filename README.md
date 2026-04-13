@@ -138,5 +138,25 @@ Habilidades importantes
 - lockchain, Dapps, Web3, Etherium/Quorum
 
 
+# --- 
+
+
+https://docusaurus.io/  - documentação
+
+https://konvajs.org/   - sistema de arrastar objetos
+
+https://excalidraw.com/ - quero ver mais sobre o projeto a estrutura e como escala
+
+https://www.jointjs.com/ - Esse parece ser interessante 
+
+https://typebot.io/ - Quero estudar mais sobre o funcionamento 
+
+https://tailwindcss.com/docs/aspect-ratio -  tenho que dominar a tecnologia
+
+https://dribbble.com/tags/form-ui - Quero pegar referencias de ferramentas 
+
+https://github.com/MayconCoutinho?tab=repositories  - Tenho que ver meu perfil e ver oque tem de util 
+
+
 
 
