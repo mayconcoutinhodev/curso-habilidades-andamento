@@ -260,3 +260,27 @@ Obrigatórios
 
 
 Meilisearch
+
+
+### --- 
+
+- índice
+- join pesado
+- otimização
+- modelagem para alta carga
+- trade-offs entre SQL e NoSQL
+- leitura intensiva vs escrita intensiva
+
+Isso resolve **problemas caros** — e empresa paga por isso.
+
+> Começar a encontrar freelance para melhorar performance de bancos 
+
+
+- Testes 
+- automação pesada
+- debugging forte
+- código que outro dev entende sem sofrer
+
+
+
+
