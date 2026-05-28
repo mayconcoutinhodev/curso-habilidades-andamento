@@ -8,7 +8,124 @@ produzir resultado.
 
 
 ---
+fundamentos e não só ferramentas
 
+lógica;
+algoritmos;
+arquitetura;
+redes;
+banco de dados;
+sistemas operacionais;
+HTTP;
+estruturas de dados;
+engenharia de software;
+matemática básica;
+inglês técnico.
+
+---
+
+Muito conteúdo de internet é entretenimento técnico.
+
+Você aprende mais com:
+
+documentação;
+livros;
+código real;
+projetos reais;
+artigos técnicos;
+open source.
+
+Exemplo:
+
+ler documentação do Mozilla;
+ler RFCs simples de HTTP;
+estudar código no GitHub;
+acompanhar engenharia de empresas como Stripe, Cloudflare, Netflix TechBlog
+---
+Desenvolva profundidade
+
+A maioria sabe usar biblioteca.
+Poucos sabem:
+
+como ela funciona;
+limitações;
+custo;
+arquitetura;
+performance;
+segurança.
+
+Exemplo:
+não basta usar React.
+Entenda:
+
+renderização;
+reconciliação;
+estado;
+SSR;
+hidratação;
+virtual DOM;
+cache;
+browser.
+
+
+---
+
+Sem inglês você fica preso no “resumo do resumo” do conhecimento.
+
+Quase toda informação de ponta vem primeiro de:
+
+papers;
+documentação;
+fóruns;
+blogs técnicos;
+vídeos;
+conferências internacionais.
+
+---
+
+Projeto difícil força aprendizado real.
+
+Exemplos bons:
+
+editor markdown tipo Obsidian;
+sistema realtime;
+banco de dados simples;
+engine 2D;
+websocket server;
+auth system;
+cache distribuído;
+parser;
+IA local;
+sistema offline-first.
+
+---
+
+matemática melhora:
+
+abstração;
+raciocínio;
+capacidade de modelar problemas.
+
+Principalmente:
+
+álgebra;
+lógica;
+estatística;
+probabilidade;
+matemática discreta.
+
+---
+
+Construa critério
+
+Pergunte sempre:
+
+isso resolve problema real?
+isso escala?
+isso é só hype?
+estou entendendo ou apenas copiando?
+
+---
 - RPA
 - crm
 ---
@@ -20,6 +137,7 @@ produzir resultado.
 - Infra estrutura
 - Manter Sistemas 
 ---
+
 
 Linguagens 
 
