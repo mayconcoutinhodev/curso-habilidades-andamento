@@ -1,3 +1,11 @@
+O principal é entender que “educação de verdade” não é faculdade, diploma ou consumir conteúdo infinito. É capacidade de:
+
+entender problemas;
+pensar com clareza;
+aprender sozinho;
+aplicar conhecimento;
+produzir resultado.
+
 
 
 - RPA
